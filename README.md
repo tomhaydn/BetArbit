@@ -9,7 +9,7 @@ I do not warrant that this works as it is based purely on [theory](http://www.au
 ```
 1. git clone https://github.com/tomeady/BetArbit.git
 ```
-2. Create environment variable with your [The Odds API](https://the-odds-api.com/) Key
+2. Create environment variable "THEODDSAPIKEY" with your [The Odds API](https://the-odds-api.com/) Key
 ```
 3. npm i
 ```
