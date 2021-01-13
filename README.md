@@ -13,7 +13,7 @@ I do not warrant that this works as it is based purely on [theory](http://www.au
 ## Usage
 
 1. cd BetArbit
-2. node app --demo true --bet 1000 --verbose true --demo true
+2. node app --demo true --verbose true --bet 1000
 
 ## Arguments
 
@@ -24,12 +24,14 @@ I do not warrant that this works as it is based purely on [theory](http://www.au
 - false
 - Denotes weather to use the demo data provided/your own or to use the odds api.
 
+
 ```
 --demo_file 
 ```
 - string 
 - ./test_data.json
 - Specifies the demo data file location relative to the directory. Note: Must be supplied if demo is true
+
 
 ```
 --bet 
@@ -38,6 +40,7 @@ I do not warrant that this works as it is based purely on [theory](http://www.au
 - 1000
 - The total amount of money you're willing to wager
 
+
 ```
 --sport 
 ```
@@ -45,12 +48,14 @@ I do not warrant that this works as it is based purely on [theory](http://www.au
 - upcoming
 - The sport type to download from the odds api. Please reference their site for more inputs.
 
+
 ```
 --region 
 ```
 - string
 - au
 - The region to download from the odds api. Please reference their site for more inputs.
+
 
 ```
 --verbose 
