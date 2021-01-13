@@ -10,10 +10,12 @@ Because portions have been ommited this website will not be functional as is.
 
 1. git clone https://github.com/tomeady/BetArbit.git
 2. Create environment variable with your [The Odds API](https://the-odds-api.com/) Key
-3. Tweak global variables as needed in app.js
+3. npm i
 
 ## Usage
 
 1. cd BetArbit
-2. npm i
-3. npm run start
+2. node app --demo true --bet 1000 --verbose true --demo true
+
+## Arguments
+
