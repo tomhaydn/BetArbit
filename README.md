@@ -6,21 +6,31 @@ I do not warrant that this works as it is based purely on [theory](http://www.au
 
 ## Installation
 
+```
 1. git clone https://github.com/tomeady/BetArbit.git
+```
 2. Create environment variable with your [The Odds API](https://the-odds-api.com/) Key
+```
 3. npm i
+```
 
 ## Usage
 
+```
 1. cd BetArbit
 2. node app --demo true --verbose true --bet 1000
+```
 
 ## Arguments
+
+- Datatype
+- Default
+- Descriptions
 
 ```
 --demo 
 ```
-- true | false
+- boolean
 - false
 - Denotes weather to use the demo data provided/your own or to use the odds api.
 
@@ -60,7 +70,7 @@ I do not warrant that this works as it is based purely on [theory](http://www.au
 ```
 --verbose 
 ```
-- true | false
+- boolean
 - false
 - Whether to log all program output.
 
