@@ -64,4 +64,11 @@ I do not warrant that this works as it is based purely on [theory](http://www.au
 - false
 - Whether to log all program output.
 
+## Examples
 
+```
+node app --demo true --verbose true --bet 1000
+```
+
+![Example 1](https://polarhcms.com/api/v1/media/object/478/1610528541280_Screenshot%202021-01-13%20200103.png)
+![Example 2](https://polarhcms.com/api/v1/media/object/478/1610528541622_Screenshot%202021-01-13%20200121.png)
